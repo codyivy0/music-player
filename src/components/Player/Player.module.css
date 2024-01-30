@@ -1,0 +1,61 @@
+:root {
+  --clr-bg-light: white;
+  --clr-bg-dark: #1e1e1e;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-bg-dark);
+  border: 2px solid black;
+  color: var(--clr-bg-light);
+  padding: 2rem;
+  gap: 1rem;
+}
+.playerContainer >h2 {
+margin: 0;
+}
+.player {
+  margin: 0;
+  height: 10px !important;
+  width: 10% !important;
+}
+.controls {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btnClear {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+.btnSmall {
+    height: 40px;
+    width: 40px;
+    margin-top: auto;
+}
+.btnImg {
+   
+    width: 100%;
+}
+.btnClear:hover {
+    cursor: pointer;
+}
+.btnClear:active {
+    transform: scale(.95);
+}
+.progressBar {
+  width: 100%;
+  border-bottom: 1px solid green;
+}
+.progress {
+  background-color: green;
+  height: 10px;
+}
