@@ -1,5 +1,7 @@
 import "./App.css";
-import Player from "./components/player/Player";
+import Player from "./components/Player/Player.jsx"
+
+
 
 function App() {
   const songs = [
